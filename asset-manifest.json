@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/pizzaria-app/static/js/main.6897a7dc.js",
+    "static/media/burger1.png": "/pizzaria-app/static/media/burger1.b6c8d7e40e3786a98b86.png",
+    "static/media/burgerBacklist.png": "/pizzaria-app/static/media/burgerBacklist.307b31a2d51d7fbfad8a.png",
+    "index.html": "/pizzaria-app/index.html",
+    "main.6897a7dc.js.map": "/pizzaria-app/static/js/main.6897a7dc.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6897a7dc.js"
+  ]
+}
