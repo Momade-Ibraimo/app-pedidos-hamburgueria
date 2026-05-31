@@ -16,6 +16,11 @@ Tecnologias
 - Styled Components
 - Axios
 - React Router DOM
+- node.js
+- expresss
+
+  ## Links:
+- Projeto:https://momade-ibraimo.github.io/app-pedidos-hamburgueria/
 
 Como rodar
 
