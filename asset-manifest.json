@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/app-pedidos-hamburgueria/static/js/main.d1594ac4.js",
+    "main.js": "/app-pedidos-hamburgueria/static/js/main.5dd5c125.js",
     "static/media/burger1.png": "/app-pedidos-hamburgueria/static/media/burger1.b6c8d7e40e3786a98b86.png",
     "static/media/burgerBacklist.png": "/app-pedidos-hamburgueria/static/media/burgerBacklist.307b31a2d51d7fbfad8a.png",
     "index.html": "/app-pedidos-hamburgueria/index.html",
-    "main.d1594ac4.js.map": "/app-pedidos-hamburgueria/static/js/main.d1594ac4.js.map"
+    "main.5dd5c125.js.map": "/app-pedidos-hamburgueria/static/js/main.5dd5c125.js.map"
   },
   "entrypoints": [
-    "static/js/main.d1594ac4.js"
+    "static/js/main.5dd5c125.js"
   ]
 }
