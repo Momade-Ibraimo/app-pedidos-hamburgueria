@@ -1,42 +1,75 @@
-App Pedidos Hamburgueria
+# 🍔 App Pedidos Hamburgueria
 
-Interface para gerenciamento de pedidos de uma hamburgueria, construída com React. 
-É possível realizar novos pedidos, listar todos os pedidos e removê-los através de uma API REST.
+Interface para gerenciamento de pedidos de uma hamburgueria, construída com React. Permite realizar novos pedidos, listar todos os pedidos e removê-los através de uma API REST.
 
-Funcionalidades
+> ⚠️ **Este projeto faz parte de um sistema com dois repositórios que se comunicam. Para funcionar corretamente, a API e o Frontend precisam estar rodando na mesma máquina ao mesmo tempo.**
+>
+> | Repositório | Link |
+> |---|---|
+> | 🔧 **API (necessária para o frontend funcionar)** | [order-management-api](https://github.com/Momade-Ibraimo/order-management-api) |
+> | 🖥️ **Frontend (você está aqui)** | [app-pedidos-hamburgueria](https://github.com/Momade-Ibraimo/app-pedidos-hamburgueria) |
+
+---
+
+## 🌐 Deploy
+
+Acesse a versão publicada: [app-pedidos-hamburgueria](https://momade-ibraimo.github.io/app-pedidos-hamburgueria/)
+
+> ⚠️ A versão publicada no GitHub Pages exibe a interface, mas **as funcionalidades dependem da API rodando localmente**. Para uso completo, siga as instruções abaixo.
+
+---
+
+## ✅ Funcionalidades
 
 - Realizar pedido com nome do cliente
 - Listar todos os pedidos cadastrados
 - Deletar pedidos da lista
 - Navegação entre páginas com React Router
 
-Tecnologias
+---
+
+## 🛠️ Tecnologias utilizadas
 
 - React
 - Styled Components
 - Axios
 - React Router DOM
-- node.js
-- expresss
+- Node.js
+- Express
 
-  ## Links:
-- Projeto:https://momade-ibraimo.github.io/app-pedidos-hamburgueria/
+---
 
-Como rodar
+## ⚙️ Como rodar
 
-Clone o repositório e instale as dependências:
+### 1. Suba a API primeiro
+
+O frontend **depende da API** para funcionar. Antes de tudo, clone e inicie o back-end:
 
 ```bash
+git clone https://github.com/Momade-Ibraimo/order-management-api
+cd order-management-api
 npm install
-```
-
-Certifique-se de que a API está rodando em `http://localhost:3001` antes de iniciar a aplicação.
-
-```bash
 npm start
 ```
 
-Estrutura do projeto
+A API deve estar rodando em `http://localhost:3001`.
+
+### 2. Suba o frontend
+
+```bash
+git clone https://github.com/Momade-Ibraimo/app-pedidos-hamburgueria
+cd app-pedidos-hamburgueria
+npm install
+npm start
+```
+
+Com os dois rodando na mesma máquina, a aplicação estará completamente funcional.
+
+---
+
+## 📁 Estrutura do projeto
+
+```
 src/
 ├── assets/
 ├── Components/
@@ -49,45 +82,35 @@ src/
 │   └── globalstyles.js
 ├── routes.js
 └── index.js
+```
 
-#Endpoints utilizados
+---
+
+## 🔗 Endpoints utilizados
 
 | Método | Endpoint | Descrição |
-|--------|----------|-----------|
-| POST | /order | Cria um novo pedido |
-| GET | /order | Lista todos os pedidos |
-| DELETE | /order/:id | Remove um pedido |
+|---|---|---|
+| `POST` | `/order` | Cria um novo pedido |
+| `GET` | `/order` | Lista todos os pedidos |
+| `DELETE` | `/order/:id` | Remove um pedido |
 
-Commits (em ordem natural de desenvolvimento)
+---
 
-commit inicial - configuração do projeto com create react app
+## 📝 Histórico de commits
 
-adiciona estilos globais com styled-components
-
-configura rotas com react-router-dom
-
-cria componente de fundo reutilizável
-
-cria componente de título
-
-cria página Home com formulário de pedido
-
-conecta formulário ao endpoint POST /order
-
-estiliza página Home com inputs e botão
-
-adiciona imagem do hamburguer na tela de pedidos
-
-cria página de listagem de pedidos
-
-conecta página de pedidos ao endpoint GET /order
-
-adiciona funcionalidade de deletar pedido
-
-adiciona botão de voltar para a tela inicial
-
-estiliza lista de pedidos e itens
-
-adiciona ícone de lixeira nos pedidos
-
-adiciona imagem do hamburguer na tela de listagem
+1. Configuração inicial do projeto com Create React App
+2. Estilos globais com Styled Components
+3. Configuração de rotas com React Router DOM
+4. Componente de fundo reutilizável
+5. Componente de título
+6. Página Home com formulário de pedido
+7. Conexão do formulário ao endpoint `POST /order`
+8. Estilização da página Home
+9. Imagem do hambúrguer na tela de pedidos
+10. Página de listagem de pedidos
+11. Conexão da listagem ao endpoint `GET /order`
+12. Funcionalidade de deletar pedido
+13. Botão de voltar para a tela inicial
+14. Estilização da lista de pedidos
+15. Ícone de lixeira nos pedidos
+16. Imagem do hambúrguer na tela de listagem
